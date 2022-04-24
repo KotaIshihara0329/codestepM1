@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Codestep3..." />
+    <meta property="og:description" content="codestepM1..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="http://codestepM1.com" />
+    <title>codestep_3_contact</title>
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="sss">
+      <header>
+        <div class="container header__container">
+          <a href="../index.html"
+            ><img class="header__logo" src="../images/logo.svg" alt="images"
+          /></a>
+          <ul class="header__ul">
+            <li><a href="../html/about.html">About</a></li>
+            <li><a href="../html/works.html">Works</a></li>
+            <li><a href="../html/news.html">News</a></li>
+            <li><a href="../html/contact.html">Contact</a></li>
+            <li>
+              <a href="#"
+                ><img src="../images/instagram.png" alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <form
+          action="https://formspree.io/f/xoqrpvwy"
+          class="container contact__container"
+          method="post"
+        >
+          <h1>Contact</h1>
+          <div class="contact__flex">
+            <label class="contact__inline" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              maxlength="20"
+              placeholder="name"
+            />
+          </div>
+          <div class="contact__flex">
+            <label class="contact__inline contact__email" for="email"
+              >E-mail</label
+            >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              maxlength="40"
+              placeholder="email"
+            />
+          </div>
+          <div class="contact__flex">
+            <label class="contact__inline" for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              maxlength="100"
+              placeholder="message"
+            ></textarea>
+          </div>
+          <button class="contact__btn" type="submit">Send</button>
+        </form>
+      </main>
+      <footer>
+        <div class="footer__container special__footer">
+          <p>&copy; 2022 My Travel</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
